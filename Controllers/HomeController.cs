@@ -51,6 +51,9 @@ namespace ViewModelFun.Controllers
         [Route("/users")]
         public IActionResult People()
         {
+            Console.WriteLine("***********************************************");
+            Console.WriteLine("In the people route");
+            Console.WriteLine("***********************************************");
             Person Joey = new Person
             {
                 fname = "Joey",
